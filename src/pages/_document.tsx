@@ -41,6 +41,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
+
+          <link rel="icon" href="/favicon.ico" />
           <meta charSet="utf-8" />
 
           <link
@@ -50,6 +52,7 @@ export default class MyDocument extends Document {
 
         </Head>
         <body>
+          <title>App Twitch</title>
           <Main />
           <NextScript />
         </body>

@@ -1,14 +1,13 @@
 import React from 'react'
-import Head from 'next/head'
 
 import LogoImg from '../assets/logo.svg'
 
-export default function Blog() {
+const Person = () => {
   return (
     <div>
 
       <main>
-        <h1> Blog</h1>
+        <h1>Person</h1>
 
         <LogoImg />
       </main>
@@ -16,3 +15,5 @@ export default function Blog() {
     </div>
   )
 }
+
+export default Person
